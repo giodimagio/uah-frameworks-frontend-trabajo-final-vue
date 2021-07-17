@@ -36,7 +36,7 @@
 
 ## El proyecto
 
-![Trabajo Final Vue](../documentacion/trabajo-final-vue-alpha.png)
+![Trabajo Final Vue](./documentacion/trabajo-final-vue-alpha.png)
 
 Párrafo 1
 
