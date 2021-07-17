@@ -36,7 +36,9 @@
 
 ## El proyecto
 
-![Trabajo Final Vue](./documentacion/trabajo-final-vue-alpha.png)
+![Trabajo Final Vue](../assets/trabajo-final-vue-alpha.png)
+
+Demo del Proyecto. Desplegado con [Vercel](https://vercel.com/): [Carrito de la compra con Vue.js](https://uah-frameworks-frontend-trabajo-final-vue.vercel.app/)
 
 Párrafo 1
 
@@ -123,5 +125,3 @@ Distribuido bajo la licencia MIT
 ## Contacto
 
 Jorge Romero - [jorge.romeroc@edu.uah.es](mailto:jorge.romeroc@edu.uah.es)
-
-Demo del Proyecto: [TODO](https://github.com/your_username/repo_name)
