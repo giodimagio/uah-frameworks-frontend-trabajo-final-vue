@@ -1,8 +1,8 @@
 
 <h1 align="center">Máster Universitario en Desarrollo Ágil de Software para la Web</h1>
-<h3 align="center"> Trabajo Final con Vue.js</h3>
+<h3 align="center"> Carrito de la compra con Vue.js</h3>
 <h5 align="center">
-    Frameworks Frontend
+    Frameworks Frontend - Trabajo Final
 </p>
 <h6 align="center">
     Universidad de Alcalá
@@ -36,7 +36,7 @@
 
 ## El proyecto
 
-![Trabajo Final Vue](../assets/trabajo-final-vue-alpha.png)
+![Trabajo Final Vue](../documentacion/trabajo-final-vue-alpha.png)
 
 Párrafo 1
 
