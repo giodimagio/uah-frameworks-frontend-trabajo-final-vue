@@ -36,7 +36,7 @@
 
 ## El proyecto
 
-![Trabajo Final Vue](../assets/trabajo-final-vue-alpha.png)
+![Trabajo Final Vue](./documentacion/trabajo-final-vue-alpha.png)
 
 Demo del Proyecto. Desplegado con [Vercel](https://vercel.com/): [Carrito de la compra con Vue.js](https://uah-frameworks-frontend-trabajo-final-vue.vercel.app/)
 
