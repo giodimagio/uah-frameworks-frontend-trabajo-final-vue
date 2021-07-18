@@ -22,7 +22,7 @@
 		<div v-else v-for="item in cartItems" :key="item.id">
 			<CartAtom :cartItem="item" v-bind="$attrs" />
 		</div>
-		<div>
+		<div v-if="cartItems.length !== 0">
 			<p class="fw-bold">
 				{{ cartTotalPriceName + " " + updateCartTotalPrice() }} €
 			</p>

@@ -7,7 +7,7 @@
 			<div class="d-flex justify-content-between align-items-center">
 				<button
 					@click="decreaseNumberOfItems"
-					className="btn btn-danger btn-circle fw-bold"
+					class="btn btn-danger btn-circle fw-bold"
 				>
 					{{ minusSign }}
 				</button>
@@ -17,7 +17,7 @@
 				<button
 					@click="increaseNumberOfItems"
 					:disabled="!inStock"
-					className="btn btn-success btn-circle fw-bold"
+					class="btn btn-success btn-circle fw-bold"
 				>
 					{{ plusSign }}
 				</button>
