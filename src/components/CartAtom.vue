@@ -25,8 +25,8 @@
 		</div>
 		<div class="col-4">
 			<div>
-				<span class="float-end"
-					>{{ (cartItem.price * cartItem.qty).toFixed(2) }} €
+				<span class="float-end">
+					{{ (cartItem.price * cartItem.qty).toFixed(2) }} €
 				</span>
 			</div>
 		</div>

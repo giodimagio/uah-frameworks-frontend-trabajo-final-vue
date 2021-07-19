@@ -3,6 +3,9 @@
 		<div class="cart d-flex align-items-end">
 			<div class="me-2">
 				<i class="bi bi-cart4 fs-2"></i>
+				<span className="fs-3 fw-bold text-success">
+					<sup>{{ cartTotalItems }}</sup>
+				</span>
 			</div>
 			<h4>{{ cartName }}</h4>
 		</div>
@@ -67,11 +70,10 @@ export default {
 	},
 	methods: {
 		updateCartTotalPrice() {
-			const reducer = this.cartItems.reduce(
-				(acum, curr) => acum + curr.price * curr.qty,
+			this.cartTotalPrice = this.cartItems.reduce(
+				(a, c) => a + c.price * c.qty,
 				0
 			);
-			this.cartTotalPrice = reducer;
 			return this.cartTotalPrice.toFixed(2);
 		},
 		checkoutMessage() {
@@ -82,6 +84,9 @@ export default {
 		hasItems() {
 			if (this.cartItems.length != 0) return true;
 			else return false;
+		},
+		cartTotalItems() {
+			return this.cartItems.reduce((a, c) => a + c.qty, 0);
 		},
 	},
 };
