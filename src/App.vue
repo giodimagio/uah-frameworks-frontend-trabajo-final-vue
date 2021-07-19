@@ -1,5 +1,5 @@
 <template>
-	<Header @category-selected="updateSelectedCategory" />
+	<HeaderAtom @category-selected="updateSelectedCategory" />
 	<div class="container">
 		<div class="row">
 			<div class="col-9">
@@ -34,7 +34,7 @@
 import ProductAtom from "./components/ProductAtom.vue";
 import CartAtom from "./components/CartAtom.vue";
 import CartMolecule from "./components/CartMolecule.vue";
-import Header from "./components/Header.vue";
+import HeaderAtom from "./components/HeaderAtom.vue";
 import db from "../db.js";
 
 export default {
@@ -43,7 +43,7 @@ export default {
 		CartAtom,
 		CartMolecule,
 		ProductAtom,
-		Header,
+		HeaderAtom,
 	},
 	data() {
 		return {
@@ -60,21 +60,21 @@ export default {
 		console.log("updated");
 	},
 	methods: {
-		addToCart(product) {
-			let indexCart = this.cart.findIndex((x) => x.id === product.id);
-			let indexData = this.data.findIndex((x) => x.id === product.id);
+		addToCart(cartItem) {
+			let indexCart = this.cart.findIndex((x) => x.id === cartItem.id);
+			let indexData = this.data.findIndex((x) => x.id === cartItem.id);
 
 			if (indexCart != -1) {
 				this.cart[indexCart].qty++;
 			} else {
-				product.qty = 1;
-				this.cart.push(product);
+				cartItem.qty = 1;
+				this.cart.push(cartItem);
 			}
 			this.data[indexData].stock--;
 		},
-		removeFromCart(product) {
-			let indexCart = this.cart.findIndex((x) => x.id === product.id);
-			let indexData = this.data.findIndex((x) => x.id === product.id);
+		removeFromCart(cartItem) {
+			let indexCart = this.cart.findIndex((x) => x.id === cartItem.id);
+			let indexData = this.data.findIndex((x) => x.id === cartItem.id);
 
 			if (this.cart[indexCart].qty > 1) {
 				this.cart[indexCart].qty--;
@@ -93,8 +93,8 @@ export default {
 				return this.data;
 			} else {
 				return this.data.filter(
-					(product) =>
-						!product.category.indexOf(this.selectedCategory)
+					(cartItem) =>
+						!cartItem.category.indexOf(this.selectedCategory)
 				);
 			}
 		},

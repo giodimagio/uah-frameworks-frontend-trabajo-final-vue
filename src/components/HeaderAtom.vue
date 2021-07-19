@@ -29,14 +29,9 @@
 </template>
 
 <script>
-import CartAtom from "./CartAtom.vue";
-
 export default {
-	name: "Header",
+	name: "HeadeAtomr",
 	emits: ["category-selected"],
-	components: {
-		CartAtom,
-	},
 	data() {
 		return {
 			title: "TRABAJO FINAL | COMPRANDO CON VUE",

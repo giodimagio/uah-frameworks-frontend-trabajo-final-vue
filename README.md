@@ -1,55 +1,44 @@
 
 <h1 align="center">Máster Universitario en Desarrollo Ágil de Software para la Web</h1>
-<h3 align="center"> Carrito de la compra con Vue.js</h3>
+<h3 align="center">Carrito de la compra con Vue.js</h3>
 <h5 align="center">
-    Frameworks Frontend - Trabajo Final
+		Frameworks Frontend - Trabajo Final
 </p>
 <h6 align="center">
-    Universidad de Alcalá
+		Universidad de Alcalá
 </h6>
 <hr>
 
 <!-- ÍNIDICE -->
 
 <details open="open">
-  <summary>Índice</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">El proyecto</a>
-      <ul>
-        <li><a href="#built-with">Stack</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Como empezar</a>
-      <ul>
-        <li><a href="#prerequisites">Requisitos previos</a></li>
-        <li><a href="#installation">Instalación</a></li>
-      </ul>
-    </li>
-    <li><a href="#license">Licenciamiento</a></li>
-    <li><a href="#contact">Contacto</a></li>
-  </ol>
+	<summary>Índice</summary>
+	<ol>
+		<li>
+			<a href="#about-the-project">El proyecto</a>
+			<ul>
+				<li><a href="#built-with">Stack</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#getting-started">Como empezar</a>
+			<ul>
+				<li><a href="#prerequisites">Requisitos previos</a></li>
+				<li><a href="#installation">Instalación</a></li>
+			</ul>
+		</li>
+		<li><a href="#license">Licenciamiento</a></li>
+		<li><a href="#contact">Contacto</a></li>
+	</ol>
 </details>
 
 <!-- EL RPOYECTO -->
 
 ## El proyecto
 
-![Trabajo Final Vue](./documentacion/trabajo-final-vue-alpha.png)
+![Trabajo Final Vue](./documentation/trabajo-final-vue-alpha.png)
 
-Demo del Proyecto. Desplegado con [Vercel](https://vercel.com/): [Carrito de la compra con Vue.js](https://uah-frameworks-frontend-trabajo-final-vue.vercel.app/)
-
-Párrafo 1
-
-Lista:
-* Contenido 1
-* Contenido 2
-* Contenido 3
-
-Párrafo 2
-
-Párrafo 3
+Demo del Proyecto. Desplegado con [Vercel](https://vercel.com/): [Carrito de la compra con Vue.js](https://uah-frameworks-frontend-trabajo-final-vue-giodimagio.vercel.app/)
 
 ### Stack
 
@@ -94,25 +83,25 @@ Previamente, debemos tener instalado lo siguiente:
 1. Abrimos un terminal Bash y clonamos el repositorio desde [GitHub](https://github.com/giodimagio/uah-frameworks-frontend-trabajo-final-vue), vía HTTPS o SSH.
 
 	HTTPS
-   ```sh
-   git clone git@github.com:giodimagio/uah-frameworks-frontend-trabajo-final-vue
-   ```
+	 ```sh
+	 git clone git@github.com:giodimagio/uah-frameworks-frontend-trabajo-final-vue
+	 ```
  	SSH
-   ```sh
-   git clone https://github.com/giodimagio/uah-frameworks-frontend-trabajo-final-vue
-   ```
+	 ```sh
+	 git clone https://github.com/giodimagio/uah-frameworks-frontend-trabajo-final-vue
+	 ```
 2. Nos movemos a la carpeta del proyecto
-   ```sh
-   cd uah-frameworks-frontend-trabajo-final-vue
-   ```
+	 ```sh
+	 cd uah-frameworks-frontend-trabajo-final-vue
+	 ```
 3. Instalamos las dependencias que aparecen en el **package.json** mediante el comando
-   ```sh
-   npm install
-   ```
-4. Ejecutamos el siguiente comando para lanzar el servidor de desarrollo de Vue, por defecto se iniciará en http://localhost:8081/
-   ```sh
-   npm run serve
-   ```
+	 ```sh
+	 npm install
+	 ```
+4. Ejecutamos el siguiente comando para lanzar el servidor de desarrollo de Vue, por defecto se iniciará en http://localhost:8080/
+	 ```sh
+	 npm run serve
+	 ```
 
 <!-- LICENCIAMIENTO -->
 
